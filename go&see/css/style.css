@@ -1,0 +1,136 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 700px;
+    padding: 10px 100px;
+}
+
+.section-main {
+    padding: 50px 0;   
+}
+
+.navbar {
+    padding: 10px 100px;
+    background-color: #01342C;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.logo {
+    color: gainsboro;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.navbar-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.navbar-item {
+    display: block;
+    padding: 5px 20px;
+}
+
+.navbar-item a {
+    color: gainsboro;
+}
+
+.navbar-item:hover a {
+    color: white;
+}
+
+.register-button {
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+    padding: 12px 25px;
+    margin-left: 10px;
+}
+
+.register-button a {
+    color: gainsboro;
+}
+
+.register-button:hover {
+    background-color: #023b33;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.register-button:hover a {
+    color: white;
+}
+
+.about {
+    flex: 1;
+}
+
+footer {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: gainsboro;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.footer-icon {
+    height: 20px;
+    padding-right: 7px;
+}
+
+/* carousel */
+
+.carousel img {
+    height: 100px;
+}
+
+
+/* trips */
+.trips {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.trip-box {
+    height: 300px;
+    width: 31%;
+    position: relative;
+}
+
+.trip-box:hover img {
+    opacity: 0.33;
+}
+
+.trip-box:hover .trip-text {
+    opacity: 1;
+}
+
+.trip-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.trip-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    opacity: 0;
+}
