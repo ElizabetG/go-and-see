@@ -129,8 +129,10 @@ footer {
 
 .trip-text {
     position: absolute;
-    top: 0;
-    left: 0;
-    justify-content: center;
+    /* position: relative; */
+    top: 50%;
+    left: 50%;
+    /* justify-content: center; */
     opacity: 0;
+    transform: translate(-50%, -50%);
 }
