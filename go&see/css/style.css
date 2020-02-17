@@ -4,7 +4,6 @@ a {
 
 body {
     margin: 0;
-    
 }
 
 main {
@@ -20,7 +19,6 @@ main {
 .navbar {
     padding: 10px 100px;
     background-color: #01342C;
-    /* background-color: white; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,8 +97,8 @@ footer {
     height: 100px;
 }
 
-
 /* trips */
+
 .trips {
     display: flex;
     justify-content: space-between;
@@ -111,6 +109,10 @@ footer {
     height: 300px;
     width: 31%;
     position: relative;
+}
+
+.trip-box:hover {
+    cursor: pointer;
 }
 
 .trip-box:hover img {
@@ -129,10 +131,8 @@ footer {
 
 .trip-text {
     position: absolute;
-    /* position: relative; */
     top: 50%;
     left: 50%;
-    /* justify-content: center; */
     opacity: 0;
     transform: translate(-50%, -50%);
 }
